@@ -1,0 +1,14 @@
+.TopSellList{
+ @apply  w-full flex flex-wrap relative justify-center  rounded
+}
+.TopSellItem{
+ @apply w-[30%]  mx-3 relative rounded
+}
+.TopSellItem img{
+    @apply rounded
+}
+.topselltext{
+    @apply absolute bg-rose-300  p-4 font-bold w-1/2 text-center text-[25px] text-[#ffffff] rounded;
+    bottom: 50px;
+    right: 0;
+}

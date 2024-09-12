@@ -1,0 +1,47 @@
+.Items-Continer{
+    @apply mt-[5rem] flex flex-wrap justify-center items-center relative ;
+}
+.Items-Continer::before{
+    content: "جدید ترین محصولات";
+    @apply absolute top-[-50px] text-[#fdfdfd] text-[45px] right-0 mx-10 border-b rounded;
+    text-shadow: 1px 1px pink
+}
+.Item{
+ @apply w-[23%] mx-2 my-5 rounded p-3 relative border mt-[2rem]; 
+ transition: all 0.5s;
+ overflow: hidden
+}
+.Item-Pic{
+ @apply rounded;
+ transition: all 0.5s
+}
+.Item-Info{
+ @apply mt-4 flex flex-col flex-wrap justify-center items-center rounded;
+ transition: all 0.5s;
+}
+.Item-Category{
+ @apply text-red-600/70 my-1 font-black
+}
+.Item-Name{
+ @apply text-[22px] font-medium text-[#fff] my-2
+}
+.Item-Price{
+ @apply font-sans text-rose-400 font-bold
+}
+
+.Item-icons-Countiner{
+    @apply absolute top-7 left-[-50px];
+    transition: all 0.5s
+}
+.Item-Icons{
+@apply font-bold text-[40px] my-3 bg-rose-400/40 text-[#fff] rounded-full ;
+backdrop-filter: blur(16px) saturate(180%);
+border: 1px solid rgba(255, 255, 255, 0.125);
+}
+
+.Item:hover{
+    @apply shadow-2xl shadow-rose-900 scale-105
+}
+.Item:hover .Item-icons-Countiner{
+    @apply left-5
+}

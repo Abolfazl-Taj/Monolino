@@ -1,0 +1,48 @@
+.Footer{
+    @apply my-3 p-2  flex items-center justify-center shadow-2xl shadow-rose-950
+}
+.Footer-Item{
+    @apply w-1/4 flex flex-col justify-center items-end my-6 border-l p-5 
+}
+.Footer-Item img{
+    @apply w-full
+}
+.Adress{
+ direction: rtl;
+ @apply font-black text-rose-500/50 mt-3 text-[20px] w-full
+}
+.Phone{
+    direction: rtl;
+    @apply font-bold text-white text-right text-[18px] my-5
+}
+.Socials{
+ @apply w-full flex  p-4 rounded shadow-2xl justify-center items-center
+}
+.Footer-Icons{
+ @apply text-[#fff] text-[40px] mx-3
+}
+.Footer-Title{
+    @apply text-[40px] font-bold text-[#fff] my-5 w-full text-center p-4
+}
+.Footer-List{
+    @apply flex flex-col w-full justify-center items-center
+}
+.Footer-ha{
+    @apply my-2 font-bold text-rose-500;
+    opacity: 0.5;
+    transition: all 0.5s;
+}
+.Footer-ha:hover{
+    opacity: 1;
+}
+.Footer-Email{
+    @apply font-black text-[16px] text-right text-red-600/60 w-full
+}
+.Footer-Input{
+ @apply w-full p-2 rounded my-4 bg-transparent font-black text-[#fff] text-[18px] border-b;
+ outline: none;
+ direction: rtl;
+}
+.Advise-Footer{
+ @apply w-full text-right font-bold text-[16px] my-2 text-white
+}

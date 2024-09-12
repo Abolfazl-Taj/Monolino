@@ -1,0 +1,20 @@
+.Advise{
+    @apply my-[5rem] mx-auto  flex flex-col justify-center items-center p-5 
+}
+.Advise-Note{
+ @apply flex flex-col justify-center items-center p-5 text-[#fff] text-[32px] shadow-2xl shadow-rose-700 rounded
+}
+.Advise-Icon{
+    @apply mb-8
+}
+.Advise-btn{
+    @apply mt-3 p-1 border-b text-rose-700 relative
+}
+.Advise-btn::after{
+    content: "";
+    @apply absolute w-[0] h-[1px] bg-rose-700 right-0 bottom-0;
+    transition: all 0.5s;
+}
+.Advise-btn:hover::after{
+    @apply w-full
+}

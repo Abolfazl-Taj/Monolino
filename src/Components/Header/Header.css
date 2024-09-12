@@ -1,0 +1,15 @@
+.Header{
+    @apply w-full h-[625px] relative flex justify-center items-center ;
+    top: -107px;
+    background: url("../../Assets/Pic/Header.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+.Header::after{
+    content: "مولینو";
+    @apply text-center font-bold text-[178px] text-rose-500 bg-rose-400/50 rounded w-[700px];
+    backdrop-filter: blur(9px) saturate(200%);
+    border: 1px solid rgba(255, 101, 101, 0.652);
+}
